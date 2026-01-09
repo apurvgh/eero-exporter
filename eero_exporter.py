@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from argparse import ArgumentParser
-from http import client
 from prometheus_client import start_http_server
 from prometheus_client.core import GaugeMetricFamily, InfoMetricFamily, REGISTRY
 import eero as eero_api
